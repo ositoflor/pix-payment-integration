@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualização de Status do Pedido</title>
+    <style>
+        /* Estilos CSS para o corpo do e-mail */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .status {
+            font-weight: bold;
+            color: #28a745; /* verde para status "Aprovado" */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Atualização Status do Pedido</h1>
+    <p>O status pagamento do pedido número <span class="status">N° 000${numeroPedido}</span> foi atualizado.</p>
+    <p>Novo status do pagamento: <span class="status">${status}</span></p>
+    <p>Valor do pedido: R$ <span class="status">${valor}</span></p>
+</div>
+</body>
+</html>
