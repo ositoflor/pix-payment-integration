@@ -22,7 +22,3 @@ Deseja-se realizar a integração do sistema de checkout de lojas virtuais com o
 - Framework: [Spring boot]
 - Banco de Dados: [SQL Server]
 - Outras ferramentas e bibliotecas: [Kafka, JWT, zxing geração de QRCode]
-
-## Instalação e Configuração
-
-[docker compose up]
